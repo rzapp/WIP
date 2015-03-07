@@ -13,8 +13,6 @@ window.onload = function ()                                          // wait til
 {
 	var theBoard = document.getElementsByClassName("piece-empty");   // capture the collection of elements with matching class
 	var lab4Color = "green";                                         // assign color value for use at event
-	
-	document.body.style.background = "silver";
 		
 	for (squaresCounter = 0; squaresCounter < (theBoard.length); squaresCounter++)    // loop till counter reaches total of elements
 	{

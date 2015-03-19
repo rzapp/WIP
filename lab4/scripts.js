@@ -9,28 +9,28 @@
 // cursor movement away changes border color back to default color  
 // press down on mouse button changes display within the cell/square
 //
-window.onload = function ()                                          // wait till after html loaded
+window.onload = function ()                                          // wait till after html loaded; DOM in place
 {
 	var lab4Color = "green";                                         // assign color value for use at event
 	var theBoard = document.getElementsByClassName("piece-empty");   // capture the collection of elements with matching class
 		
-	for (squaresCounter = 0; squaresCounter < (theBoard.length); squaresCounter++)    // loop till counter reaches total of elements
+	for (squaresCount = 0; squaresCount < (theBoard.length); squaresCount++)    // loop till counter reaches total of elements
 	{
-		var eachSquare = theBoard[squaresCounter];
+		var eachSquare = theBoard[squaresCount];
 		
-		eachSquare.onmouseover = function ()                    // bind the one same Event to each different element
+		eachSquare.onmouseover = function ()                    // bind the one same Event function to each different element
 		{
 			this.style.borderColor = lab4Color;				    // assign the property value to the targeted piece
 		}
 		
 		eachSquare.onmouseout = function ()
 		{
-			this.style.borderColor = "";                        // clear the assigned style; un-"mask"-ing original style
+			this.style.borderColor = "";                        // clear the assigned style; revealing the original style
 		}
 		
-		eachSquare.onmousedown = function ()                    // bind this same Event to each element
+		eachSquare.onmousedown = function ()                    // bind this same Event function to each element
 		{
-			var currentClass = this.className;                  // capture the in-place class of the targeted piece
+			var currentClass = this.className;                  // capture the currently in-place class of the targeted piece
 			
 			if (currentClass == "piece-empty")					// compare the class
 			{

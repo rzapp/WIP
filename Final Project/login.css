@@ -1,0 +1,237 @@
+﻿/* 
+ITCS 1105
+Final Project
+login.css
+Raymond Zapp
+00146825
+6 May 2015
+*/
+.accountPage
+{
+    width: 520px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header
+{
+    font-family: Cambria;
+    font-size: 16px;
+}
+.header p
+{
+    font-family: Calibri;
+    font-size: 12px; 
+    font-style: italic; 
+}
+.content-login hr
+{
+    width: 90%;
+    border-color: rgb(0, 204, 255);
+}
+.content-login [type = "text"]
+{
+    height: 15px;
+}
+.footer
+{
+    font-size: 12px;
+}
+.accountPage .content-login  
+{
+    font-family: Calibri;
+    font-size: 12px;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 5px;
+}
+.accountPage .content-login .logins
+{
+    display: table;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.accountPage .content-login .logins .login .text
+{
+    display: inline-block;
+    width: 210px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.accountPage .content-login .logins .login .text-phone
+{
+    display: none;
+}
+.accountPage .content-login .logins .login .spacer 
+{
+   display: inline-block;
+   height: 15px;
+   width: 210px;
+   /*background-color: Green;*/
+   margin-right: 10px;
+}
+.accountPage .content-login .logins .login .value 
+{
+    display: inline-block;
+    margin-right: 10px;
+    width: 35px;      
+}
+.accountPage .content-login .logins .login .input 
+{
+    margin-left: 15px;
+    display: inline-block;
+}
+.accountPage .content-login .logins .login .input .login-button
+{
+    margin-left: 29px;
+    margin-top: 10px;
+}
+.content-login [type = "button"]
+{
+    width: 125px;
+}
+.accountPage .content-login .accounts-create
+{
+    display: table;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.accountPage .content-login .accounts-create .new .text
+{
+    display: inline-block;
+    width: 160px;           
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.accountPage .content-login .accounts-create .new .text-phone
+{
+    display: none;
+}
+.accountPage .content-login .accounts-create .new .spacer
+{
+   display: inline-block;
+   height: 15px;
+   width: 160px;    
+   /*background-color: Blue;*/
+   margin-right: 10px;
+}
+.accountPage .content-login .accounts-create .new .value
+{
+    display: inline-block;
+    margin-right: 5px;  
+    width: 105px;        
+}
+.accountPage .content-login .accounts-create .new .input
+{
+    margin-left: 5px;  
+    display: inline-block;
+}
+.accountPage .content-login .accounts-create .new .input .create-button
+{
+    margin-left: 29px;
+    margin-top: 10px;
+}
+/*
+Media Query *******************
+*/
+/*@media all and (max-width:480px)
+{
+.accountPage .content-login .logins .login .text
+{
+    display: none;
+}
+.accountPage .content-login .accounts-create .new .text
+{
+    display: none;
+}
+.accountPage .content-login .logins .login .text-phone
+{
+    font-family: Cambria;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.accountPage .content-login .accounts-create .new .text-phone
+{
+    font-family: Cambria;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.accountPage
+{
+    width: 300px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.accountPage .header
+{
+    font-family: Cambria;
+    font-size: 18px;
+}
+.accountPage .header p
+{
+    font-family: Calibri;
+    font-size: 13px; 
+    font-style: italic; 
+}
+.accountPage .header h1
+{
+    font-size: 97%;
+    text-align: center; 
+}
+.accountPage .content-login [type = "button"] 
+{
+    width: 175px;
+}
+.accountPage .content-login [type = "text"]
+{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 170px;
+}
+.accountPage .content-login 
+{
+    font-family: Calibri;
+    font-size: 13px;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+.accountPage .content-login hr
+{
+    width: 90%;
+    border-color: rgb(0, 204, 255);
+    margin: 15px;
+}
+.accountPage .content-login .logins .login .value 
+{
+    display: inline-block;
+    margin-right: 10px;
+    width: 70px;      
+}
+.accountPage .content-login .logins .login .input 
+{
+    margin-left: 15px;
+    display: inline-block;
+}
+.accountPage .content-login .accounts-create .new .value
+{
+    display: inline-block;
+    margin-right: 5px;  
+    width: 85px;       
+}
+.accountPage .content-login .accounts-create .new .input
+{
+    margin-left: 5px;  
+    display: inline-block;
+}
+.footer
+{
+    font-size: 12px;
+}
+}*/

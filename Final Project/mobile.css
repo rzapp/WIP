@@ -1,0 +1,82 @@
+﻿/*
+ITCS 1105
+Final Project
+mobile.css
+Raymond Zapp
+00146825
+6 May 2015
+*/
+.accountPage
+{
+    width: 300px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.accountPage .header
+{
+    font-family: Cambria;
+    font-size: 18px;
+}
+
+.accountPage .header p
+{
+    font-family: Calibri;
+    font-size: 13px; 
+    font-style: italic; 
+}
+
+.accountPage .header h1
+{
+    font-size: 97%;
+    text-align: center; 
+}
+
+.accountPage .content 
+{
+    font-family: Calibri;
+    font-size: 13px;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+.accountPage .content hr
+{
+    width: 90%;
+    border-color: rgb(0, 204, 255);
+    margin: 15px;
+}
+
+.accountPage .content [type = "button"] 
+{
+    width: 195px;
+}
+
+.accountPage .content [type = "text"]
+{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 190px;
+}
+
+.accountPage .content .accounts  
+{
+    margin-left: 30px;
+}
+.accountPage .content .elements
+{
+    margin-left: 30px;
+}
+
+.accountPage .content .accounts .account .name
+{
+    margin-top: 10px;
+}
+
+.accountPage .content .accounts .account .name #makeBold
+{
+   font-weight: bold; 
+}
+/* end */

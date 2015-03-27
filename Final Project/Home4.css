@@ -1,0 +1,226 @@
+﻿/* 
+ITCS 1105
+Final Project
+Home.css
+Raymond Zapp
+00146825
+6 May 2015
+*/
+
+.accountPage
+{
+    width: 520px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.accountPage .header
+{
+    font-family: Cambria;
+    font-size: 16px;
+}
+
+.accountPage .header p
+{
+    font-family: Calibri;
+    font-size: 12px; 
+    font-style: italic; 
+}
+
+.accountPage .content
+{
+    font-family: Calibri;
+    font-size: 12px;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 5px;
+}
+
+.accountPage .content hr
+{
+    width: 90%;
+    border-color: rgb(0, 204, 255);
+}
+
+.accountPage .content [type = "button"]
+{
+    width: 85px;
+}
+
+.accountPage .content [type = "text"]
+{
+    height: 12px;
+}
+
+.accountPage .content .accounts
+{
+	display: table;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.accountPage .content .accounts .account .name
+{
+	width: 100px;
+	margin-bottom: 5px;
+	display: inline-block;
+}
+
+.accountPage .content .accounts .account .name .account-name
+{
+    font-weight: bold;
+}
+.accountPage .content .accounts .account .value
+{
+	display: inline-block;
+}
+
+
+
+.accountPage .content .accounts .account .value .account-output  /*test  */
+{
+    font-style: italic;
+    color: Red;
+}
+
+.accountPage .content .accounts .account .update
+{
+	margin-left: 15px;
+	display: inline-block;
+}
+
+.accountPage .content .elements
+{
+	display: table;
+	margin-bottom: 10px;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.accountPage .content .elements .element .eName
+{
+	margin-left: 5px;
+	display: inline-block;
+	width: 100px;
+	margin-bottom: 5px;
+}
+
+.accountPage .content .elements .element .eValue
+{
+	margin-left: 5px;
+	display: inline-block;
+}
+
+.accountPage .content .elements .element .eValue .element-input-button
+{
+    margin-left:  65px;  
+}
+
+.accountPage .footer
+{
+    font-size: 12px;  
+}
+/*
+Media Query *******************
+*/
+@media all and (max-width:320px)
+{
+
+.accountPage
+{
+    width: 300px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.accountPage .header
+{
+    font-family: Cambria;
+    font-size: 18px;
+}
+
+.accountPage .header p
+{
+    font-family: Calibri;
+    font-size: 13px; 
+    font-style: italic; 
+}
+
+.accountPage .header h1
+{
+    font-size: 97%;
+    text-align: center; 
+}
+
+.accountPage .content
+{
+    font-family: Calibri;
+    font-size: 13px;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+.accountPage .content hr
+{
+    width: 90%;
+    border-color: rgb(0, 204, 255);
+    margin: 15px;
+}
+
+.accountPage .content [type = "button"]
+{
+    width: 195px;
+}
+
+.accountPage .content [type = "text"]
+{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 190px;
+    height: 20px;
+}
+
+.accountPage .content .accounts
+{
+    margin-left: 30px;
+}
+
+.accountPage .content .elements
+{
+    margin-left: 30px;
+}
+
+.accountPage .content .accounts .account .name
+{
+    margin-top: 10px;
+}
+
+.accountPage .content .accounts .account .name .account-name
+{
+   font-weight: bold;
+}
+.accountPage .content .elements .element .eValue .element-input-button
+{
+    margin-left: 0px; 
+    margin-top: -5px;
+    height:  25px; 
+}
+
+.accountPage .content .accounts .account .update .email-input-button
+{
+    margin-left: -15px;
+    height:  25px;
+}
+
+.accountPage .content .accounts .account .update .gpa-input-button
+{
+    margin-left: -15px;
+    height:  25px;
+}
+}
+/* end */
